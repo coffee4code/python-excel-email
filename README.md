@@ -16,11 +16,11 @@
 ### Setup
 1. Create virtual env
     ```bash
-        virtualenv -p /usr/bin/python3.4 --no-site-packages venv
+        virtualenv -p /usr/bin/python3.4 --no-site-packages .venv
     ```
 2. Setup ```Pycharm``` Project Interpreter
     ```bash
-        Settings -> Project:current -> Project Intercepreter -> dropdown and choose venv
+        Settings -> Project:current -> Project Intercepreter -> dropdown and choose .venv
     ```
     
 3. Install dependencies
