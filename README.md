@@ -9,6 +9,8 @@
 
 ### Packages
 * xlrd
+* Jinja2==2.8
+* MarkupSafe==0.23
 
 ```(more in requirements.txt)```
 

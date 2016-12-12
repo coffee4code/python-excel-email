@@ -19,7 +19,7 @@ def log_text(text_str):
 
 def prompt_question(text_question):
     user_input = input(text_question)
-    if user_input in ['Y', 'y', 'Yes', 'yes']:
+    if user_input.lower() in ['y', 'yes']:
         return True
     return False
 
